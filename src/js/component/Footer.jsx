@@ -1,10 +1,11 @@
 import React from "react";
 
-const Footer= () => {
-    <footer style="background-color: #333; color: #fff;">
-  <p>This is the footer text.</p>
+const Footer= () => { 
+  return (<footer className= "Footer">
+  <p>Copyright &copy; Your Website 2019</p>
 </footer>
+   )
 
 }
-
+.0
 export default Footer
